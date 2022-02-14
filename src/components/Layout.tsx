@@ -5,7 +5,7 @@ import "./Layout.css";
 function Layout() {
   return (
     <div>
-      <Header />
+      <Header showRightContent={true} />
       <Main />
     </div>
   );
